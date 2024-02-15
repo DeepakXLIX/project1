@@ -1,0 +1,45 @@
+#ribbon {
+  margin: 20px 0px;
+}
+#ribbon .st-1 {
+  position: relative;
+}
+#ribbon .st-1 img {
+  width: 40vw;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+#ribbon .inside-ribbon {
+  background-color: #E2F3FF;
+  padding: 20px 0px;
+}
+#ribbon .inside-ribbon .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 1100px) {
+  #ribbon .inside-ribbon .container img {
+    height: 25px;
+  }
+}
+@media (max-width: 768px) {
+  #ribbon .inside-ribbon .container img {
+    height: 18px;
+  }
+}
+@media (max-width: 576px) {
+  #ribbon .inside-ribbon .container img {
+    height: 12px;
+  }
+}
+#ribbon .st-2 {
+  position: relative;
+}
+#ribbon .st-2 img {
+  width: 40vw;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}/*# sourceMappingURL=ribbon.css.map */

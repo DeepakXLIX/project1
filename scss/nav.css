@@ -1,0 +1,43 @@
+@media (max-width: 760px) {
+  nav {
+    padding: 0;
+  }
+}
+@media (max-width: 760px) {
+  nav img {
+    max-height: 50px;
+  }
+}
+nav #navbarSupportedContent {
+  width: 100%;
+}
+nav #navbarSupportedContent ul {
+  display: flex;
+  margin: 0px auto;
+}
+nav #navbarSupportedContent ul li a {
+  margin-right: 10px;
+}
+nav #navbarSupportedContent ul li:hover {
+  font-weight: bold;
+}
+nav #navbarSupportedContent form button {
+  padding: 10px 30px;
+}
+nav #navbarSupportedContent form button:first-child {
+  background-color: rgba(2, 149, 255, 0.1411764706);
+}
+nav #navbarSupportedContent form button:first-child:hover {
+  background-color: white;
+  color: #0295FF;
+  border: 1px solid #0295FF;
+}
+nav #navbarSupportedContent form button:last-child {
+  background-color: #0295FF;
+  color: white;
+}
+nav #navbarSupportedContent form button:last-child:hover {
+  background-color: white;
+  color: #0295FF;
+  border: 1px solid #0295FF;
+}/*# sourceMappingURL=nav.css.map */

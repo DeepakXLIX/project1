@@ -1,0 +1,61 @@
+#mail .col .input-div {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+}
+@media (max-width: 991px) {
+  #mail .col .input-div {
+    font-size: 12px;
+  }
+}
+#mail .col .input-div input {
+  width: 100%;
+  font-size: 1em;
+  padding: 15px;
+  border: 1px solid black;
+}
+@media (max-width: 991px) {
+  #mail .col .input-div input {
+    padding: 12px;
+  }
+}
+@media (max-width: 768px) {
+  #mail .col .input-div input {
+    padding: 10px;
+  }
+}
+@media (max-width: 768px) {
+  #mail .col .input-div input {
+    padding: 6px;
+  }
+}
+#mail .col .input-div button {
+  position: absolute;
+  right: 10px;
+  background-color: #0295FF;
+  color: white;
+  font-size: 1em;
+  padding: 15px 40px;
+}
+@media (max-width: 991px) {
+  #mail .col .input-div button {
+    padding: 12px;
+  }
+}
+@media (max-width: 768px) {
+  #mail .col .input-div button {
+    padding: 10px;
+  }
+}
+@media (max-width: 768px) {
+  #mail .col .input-div button {
+    padding: 6px;
+  }
+}
+
+@media (min-width: 771px) {
+  #mail {
+    display: none;
+  }
+}/*# sourceMappingURL=mail.css.map */

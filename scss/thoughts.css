@@ -1,0 +1,85 @@
+#thoughts {
+  position: relative;
+}
+#thoughts > img:first-child {
+  position: absolute;
+  left: 150px;
+  top: -75px;
+}
+@media (max-width: 1840px) {
+  #thoughts > img:first-child {
+    display: none;
+  }
+}
+#thoughts > img:nth-child(2) {
+  position: absolute;
+  right: 150px;
+  top: 230px;
+}
+@media (max-width: 1900px) {
+  #thoughts > img:nth-child(2) {
+    display: none;
+  }
+}
+#thoughts .container .row .common-cls:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#thoughts .container .row .common-cls:first-child img {
+  max-height: 500px;
+}
+#thoughts .container .row .common-cls:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#thoughts .container .row .common-cls:last-child .inside-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  color: white;
+  gap: 20px;
+}
+#thoughts .container .row .common-cls:last-child .inside-div .unique-cls {
+  border-radius: 10px;
+  padding: 30px 20px;
+  position: relative;
+  color: black;
+  border: 1px solid #0295FF;
+  font-size: 20px;
+}
+@media (max-width: 991px) {
+  #thoughts .container .row .common-cls:last-child .inside-div .unique-cls {
+    font-size: 15px;
+    padding: 15px 15px;
+  }
+}
+@media (max-width: 768px) {
+  #thoughts .container .row .common-cls:last-child .inside-div .unique-cls {
+    font-size: 8px;
+    padding: 5px 5px;
+  }
+}
+#thoughts .container .row .common-cls:last-child .inside-div .unique-cls:hover {
+  background-color: #E2F3FF;
+  border: none;
+}
+#thoughts .container .row .common-cls:last-child .inside-div .unique-cls h5 {
+  font-weight: 600;
+  font-size: 1em;
+}
+#thoughts .container .row .common-cls:last-child .inside-div .unique-cls p {
+  width: 50%;
+  font-size: 0.8em;
+}
+#thoughts .container .row .common-cls:last-child .inside-div .unique-cls img {
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+}
+@media (max-width: 991px) {
+  #thoughts .container .row .common-cls:last-child .inside-div .unique-cls img {
+    height: 40px;
+  }
+}/*# sourceMappingURL=thoughts.css.map */

@@ -1,0 +1,22 @@
+#footer-end {
+  background-color: #F3F3F3;
+}
+#footer-end .container {
+  border-top: 2px solid #E7E7E7;
+}
+#footer-end .container .row {
+  padding: 10px 0px;
+}
+#footer-end .container .row .col {
+  text-align: center;
+}
+@media (max-width: 1200px) {
+  #footer-end .container .row .col {
+    font-size: 13px;
+  }
+}
+@media (max-width: 760px) {
+  #footer-end .container .row .col {
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=footer-end.css.map */

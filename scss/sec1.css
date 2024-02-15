@@ -1,0 +1,79 @@
+#sec-1 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+@media (max-width: 768px) {
+  #sec-1 {
+    font-size: 12px;
+  }
+}
+@media (max-width: 578px) {
+  #sec-1 {
+    font-size: 8px;
+  }
+}
+@media (max-width: 446px) {
+  #sec-1 {
+    font-size: 6px;
+  }
+}
+#sec-1 .capsule {
+  background-color: rgba(135, 207, 235, 0.15);
+  border-radius: 40px;
+  padding: 10px;
+}
+@media (min-width: 991px) {
+  #sec-1 .capsule {
+    display: none;
+  }
+}
+#sec-1 .capsule .container-fluid {
+  height: 100%;
+}
+#sec-1 .capsule .container-fluid .row {
+  height: 100%;
+}
+#sec-1 .capsule .container-fluid .row .common-cap-cls:first-child,
+#sec-1 .capsule .container-fluid .row .common-cap-cls:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#sec-1 .capsule .container-fluid .row .common-cap-cls:first-child .inside-common-cap,
+#sec-1 .capsule .container-fluid .row .common-cap-cls:nth-child(2) .inside-common-cap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#sec-1 .capsule .container-fluid .row .common-cap-cls:first-child .inside-common-cap *,
+#sec-1 .capsule .container-fluid .row .common-cap-cls:nth-child(2) .inside-common-cap * {
+  margin: 0;
+}
+#sec-1 .capsule .container-fluid .row .common-cap-cls:first-child .inside-common-cap img,
+#sec-1 .capsule .container-fluid .row .common-cap-cls:nth-child(2) .inside-common-cap img {
+  margin-right: 10px;
+}
+#sec-1 .capsule .container-fluid .row .common-cap-cls:first-child .inside-common-cap P,
+#sec-1 .capsule .container-fluid .row .common-cap-cls:nth-child(2) .inside-common-cap P {
+  font-weight: 600;
+  font-size: 0.6em;
+}
+#sec-1 .capsule .container-fluid .row .common-cap-cls:first-child .inside-common-cap .wrapper > *,
+#sec-1 .capsule .container-fluid .row .common-cap-cls:nth-child(2) .inside-common-cap .wrapper > * {
+  margin: 0;
+  font-size: 1em;
+}
+#sec-1 .capsule .container-fluid .row .common-cap-cls:first-child .inside-common-cap .wrapper h6,
+#sec-1 .capsule .container-fluid .row .common-cap-cls:nth-child(2) .inside-common-cap .wrapper h6 {
+  opacity: 0.5;
+}
+#sec-1 .capsule .container-fluid .row .common-cap-cls:last-child {
+  /* @include section-1-flex(); */
+}
+#sec-1 .capsule .container-fluid .row .common-cap-cls:last-child button {
+  padding: 5px 40px;
+  background-color: #0295FF;
+  color: white;
+  font-size: 1.05em;
+}/*# sourceMappingURL=sec1.css.map */

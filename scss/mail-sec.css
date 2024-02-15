@@ -1,0 +1,149 @@
+#mail-sec {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+#mail-sec > img {
+  position: absolute;
+  right: 20px;
+  top: -10px;
+}
+@media (max-width: 1840px) {
+  #mail-sec > img {
+    display: none;
+  }
+}
+#mail-sec .row {
+  height: 340px;
+  background-color: #E2F3FF;
+  border-radius: 20px;
+}
+@media (max-width: 768px) {
+  #mail-sec .row {
+    height: 200px;
+  }
+}
+@media (max-width: 640px) {
+  #mail-sec .row {
+    height: 180px;
+  }
+}
+@media (max-width: 445px) {
+  #mail-sec .row {
+    height: 150px;
+  }
+}
+#mail-sec .row .common-cls:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+#mail-sec .row .common-cls:first-child .inside-col {
+  font-size: 22px;
+}
+@media (max-width: 991px) {
+  #mail-sec .row .common-cls:first-child .inside-col {
+    font-size: 20px;
+  }
+}
+@media (max-width: 576px) {
+  #mail-sec .row .common-cls:first-child .inside-col {
+    font-size: 14px;
+  }
+}
+@media (max-width: 448px) {
+  #mail-sec .row .common-cls:first-child .inside-col {
+    font-size: 10px;
+  }
+}
+#mail-sec .row .common-cls:first-child .inside-col p {
+  color: #0295FF;
+  font-weight: 500;
+  margin: 0;
+  font-size: 0.8em;
+}
+#mail-sec .row .common-cls:first-child .inside-col h2 {
+  font-size: 1.5em;
+}
+#mail-sec .row .common-cls:first-child .input-div {
+  font-size: 15px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  max-width: 500px;
+}
+@media (max-width: 1100px) {
+  #mail-sec .row .common-cls:first-child .input-div {
+    font-size: 13px;
+  }
+}
+@media (max-width: 991px) {
+  #mail-sec .row .common-cls:first-child .input-div {
+    font-size: 10px;
+  }
+}
+#mail-sec .row .common-cls:first-child .input-div input {
+  width: 100%;
+  font-size: 1em;
+  padding: 12px 10px;
+}
+#mail-sec .row .common-cls:first-child .input-div button {
+  position: absolute;
+  right: 10px;
+  background-color: #0295FF;
+  color: white;
+  font-size: 1em;
+}
+#mail-sec .row .common-cls:first-child .input-div button:hover {
+  border: 1px solid #0295FF;
+  background-color: white;
+  color: #0295FF;
+}
+#mail-sec .row .common-cls:last-child {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#mail-sec .row .common-cls:last-child img {
+  position: absolute;
+  bottom: 0;
+  max-height: 400px;
+}
+
+@media (max-width: 986px) {
+  #mail-sec .row .common-cls:first-child {
+    font-size: 18px;
+  }
+  #mail-sec .row .common-cls:first-child .inside-col h2 br {
+    display: none;
+  }
+}
+@media (max-width: 568px) {
+  #mail-sec .row {
+    background-color: #E2F3FF;
+    border-radius: 20px;
+  }
+  #mail-sec .row .common-cls:first-child {
+    font-size: 19px;
+    flex-direction: column;
+  }
+  #mail-sec .row .common-cls:first-child .input-div {
+    display: none;
+  }
+}
+@media (max-width: 771px) {
+  #mail-sec .row .common-cls:first-child .input-div input {
+    display: none;
+  }
+  #mail-sec .row .common-cls:first-child .input-div button {
+    display: none;
+  }
+}/*# sourceMappingURL=mail-sec.css.map */
